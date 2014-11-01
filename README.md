@@ -1,4 +1,4 @@
-# appreg
+# appregSvc - Application Registry Service
 
 This project implements an application registration. It is built using [baucis](https://github.com/wprl/baucis) 
 and consists of 
@@ -16,8 +16,8 @@ and consists of
 - Application and MongoDB ports can be configured in config/config.js.
 
 ## Installation:
-    git clone https://github.com/DigiKMU/appreg.git
-    cd appreg
+    git clone https://github.com/DigiKMU/appregSvc.git
+    cd appregSvc
     npm install
     node app
 
