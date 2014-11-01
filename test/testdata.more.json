@@ -1,0 +1,188 @@
+[
+	{ 
+		"appid": "things",
+		"logo": "fa-pencil",
+		"category": "Productivity", 	
+		"name": [
+			{	"locale": "en", "text":	"Notes"	},
+			{	"locale": "de", "text":	"Notizen" }
+		],
+		"desc": [
+			{	"locale": "en", "text": "Synchronize Notes instantly over several clients" },
+			{	"locale": "de", "text": "Notizen sofort über mehrere Klienten synchronisieren" }
+		]
+	},
+	{
+		"appid": "presents",	
+		"logo": "fa-gift", 
+		"category": "Home", 
+		"name": [
+			{	"locale": "en", "text":	"Presents"	},
+			{	"locale": "de", "text":	"Geschenke" }
+		],
+		"desc": [
+			{	"locale": "en", "text": "Administer gifts given and received" },
+			{	"locale": "de", "text": "Geschenke verwalten" }
+		]
+	},
+	{
+	 	"appid": "menutest",
+	 	"logo": "fa-tumblr",
+		"category": "Test", 
+		"name": [
+			{	"locale": "en", "text":	"MenuTest"	},
+			{	"locale": "de", "text":	"MenuTest" }
+		],
+		"desc": [
+			{	"locale": "en", "text": "Test application with a more complex menu structure" },
+			{	"locale": "de", "text": "Test Applikation zeigt komplexere Menu Struktur" }
+		]
+	},
+	{ 
+		"appid": "apps",
+		"logo": "fa-cubes",
+		"category": "System",
+		"name": [
+			{	"locale": "en", "text":	"Apps"	},
+			{	"locale": "de", "text":	"Apps" }
+		],
+		"desc": [
+			{	"locale": "en", "text": "Registry of all available applications" },
+			{	"locale": "de", "text": "Uebersicht über alle verfügbaren Applikationen" }
+		]
+	},
+	{
+		"appid": "puzzle",
+		"logo": "fa-puzzle-piece",
+		"category": "Games",
+		"name": [
+			{	"locale": "en", "text":	"Puzzle"	},
+			{	"locale": "de", "text":	"Puzzle" }
+		],
+		"desc": [
+			{	"locale": "en", "text": "Enjoy a simple puzzle game" },
+			{	"locale": "de", "text": "Entspannen bei einem Puzzle Spiel" }
+		]
+	}
+]
+
+	/*  comments are not allowed in json files, thats why we keep it separate
+	{
+		"appid": "time",
+		"logo": "fa-clock",
+		"category": "Productivity",
+		"name": [
+			{	"locale": "en", "text": "Time" },
+			{ 	"locale": "de", "text": "Arbeitszeit" }
+		],
+		"desc": [
+			{	"locale": "en", "text": "Log and monitor working time" },
+			{ 	"locale": "de", "text": "Arbeitszeit erfassen und auswerten" }
+		]
+	},
+	{
+		"appid": "contracts",
+		"logo": "fa-legal",
+		"category": "Legal",
+		"name": [
+			{	"locale": "en", "text":	"Contracts"	},
+			{	"locale": "de", "text":	"Verträge" }
+		],
+		"desc": [
+			{	"locale": "en", "text": "Administer legal contracts" },
+			{	"locale": "de", "text": "Verträge verwalten" }
+		]
+	},
+	{
+		"appid": "twitter",
+		"logo": "fa-twitter",
+		"category": "Communication",
+		"name": [
+			{	"locale": "en", "text":	"Twitter"	},
+			{	"locale": "de", "text":	"Twitter" }
+		],
+		"desc": [
+			{	"locale": "en", "text": "Read and send messages via Twitter" },
+			{	"locale": "de", "text": "Meldungen mit Twitter lesen und senden" }
+		]
+	},
+	{
+		"appid": "youtube",
+		"logo": "fa-youtube",
+		"category": "Media",
+		"name": [
+			{	"locale": "en", "text":	"Youtube"	},
+			{	"locale": "de", "text":	"Youtube" }
+		],
+		"desc": [
+			{	"locale": "en", "text": "Find and watch movies on Youtube" },
+			{	"locale": "de", "text": "Filme auf Youtube finden und anschauen" }
+		]
+	},
+	{
+		"appid": "bizcard",
+		"logo": "fa-qrcode",
+		"category": "Communication",
+		"name": [
+			{	"locale": "en", "text":	"Bizcard"	},
+			{	"locale": "de", "text":	"Kontakt" }
+		],
+		"desc": [
+			{	"locale": "en", "text": "Exchange business cards via QR-Tags" },
+			{	"locale": "de", "text": "Kontaktdaten per QR-Tags austauschen" }
+		]
+	},
+	{
+		"appid": "tasks",
+		"logo": "fa-tasks",
+		"category": "Productivity",
+		"name": [
+			{	"locale": "en", "text":	"Tasks"	},
+			{	"locale": "de", "text":	"Aufgaben" }
+		],
+		"desc": [
+			{	"locale": "en", "text": "Boost your productivity by handling your tasks" },
+			{	"locale": "de", "text": "Aufgaben verwalten" }
+		]
+	},
+	{
+		"appid": "eshop",
+		"logo": "fa-shopping-cart",
+		"category": "Finance",
+		"name": [
+			{	"locale": "en", "text":	"E-Shop"	},
+			{	"locale": "de", "text":	"E-Shop" }
+		],
+		"desc": [
+			{	"locale": "en", "text": "Sell stuff online" },
+			{	"locale": "de", "text": "Dinge online verkaufen" }
+		]
+	},
+	{
+		"appid": "album",
+		"logo": "fa-photo",
+		"category": "Media",
+		"name": [
+			{	"locale": "en", "text":	"Album"	},
+			{	"locale": "de", "text":	"Album" }
+		],
+		"desc": [
+			{	"locale": "en", "text": "Watch a photo album" },
+			{	"locale": "de", "text": "Photos in einem Album anschauen" }
+		]
+	},
+	{
+		"appid": "pay",
+		"logo": "fa-money",
+		"category": "Finance",
+		"name": [
+			{	"locale": "en", "text":	"Pay"	},
+			{	"locale": "de", "text":	"Pay" }
+		],
+		"desc": [
+			{	"locale": "en", "text": "Pay bills online" },
+			{	"locale": "de", "text": "Rechnungen online zahlen" }
+		]
+	}
+	*/
+
