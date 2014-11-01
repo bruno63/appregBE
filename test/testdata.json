@@ -1,5 +1,6 @@
 [
 	{ 
+		"tid": "tenantA",
 		"appid": "things",
 		"logo": "fa-pencil",
 		"category": "Productivity", 	
@@ -13,6 +14,7 @@
 		]
 	},
 	{
+		"tid": "tenantA",
 		"appid": "presents",	
 		"logo": "fa-gift", 
 		"category": "Home", 
@@ -26,6 +28,7 @@
 		]
 	},
 	{
+		"tid": "tenantA",
 	 	"appid": "menutest",
 	 	"logo": "fa-tumblr",
 		"category": "Test", 
@@ -39,6 +42,7 @@
 		]
 	},
 	{ 
+		"tid": "tenantA",
 		"appid": "apps",
 		"logo": "fa-cubes",
 		"category": "System",
@@ -52,6 +56,7 @@
 		]
 	},
 	{
+		"tid": "tenantA",
 		"appid": "puzzle",
 		"logo": "fa-puzzle-piece",
 		"category": "Games",
