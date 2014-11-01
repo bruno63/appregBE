@@ -12,22 +12,21 @@
  var testData = require('./test/testData.json');
 
 // Connect to the Mongo instance
-var dbUri = config.mongoUrl + config.itemName + '_v' + config.version;
-mongoose.connect(dbUri);
+mongoose.connect(config.mongo.uri);
 
 mongoose.connection.on('connected', function() {
-	console.log('Mongoose connected to ' + dbUri);
+	console.log('Mongoose connected to ' + config.mongo.uri);
 });
 mongoose.connection.on('error', function(err) {
-	console.log('Mongoose (' + dbUri + ') connection error: ' + err);
+	console.log('Mongoose (' + config.mongo.uri + ') connection error: ' + err);
 });
 mongoose.connection.on('disconnected', function() {
-	console.log('Mongoose (' + dbUri + ') disconnected');
+	console.log('Mongoose (' + config.mongo.uri + ') disconnected');
 });
 
 process.on('SIGINT', function() {
 	mongoose.connection.close(function() {
-		console.log('Mongoose (' + dbUri + ') disconnected through app termination');
+		console.log('Mongoose (' + config.mongo.uri + ') disconnected through app termination');
 		process.exit(0);
 	});
 });
