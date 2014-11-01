@@ -3,6 +3,9 @@
 module.exports = {
 	title: 'AppReg',
 	description: 'Registry of available applications',
+	version: '2',
+	itemName: 'app',
+	collectionName: 'apps',
 
 	// Server IP
 	ip:     process.env.OPENSHIFT_NODEJS_IP ||
@@ -19,9 +22,6 @@ module.exports = {
 		uri:    process.env.MONGOLAB_URI ||
 				process.env.MONGOHQ_URL ||
 				process.env.OPENSHIFT_MONGODB_DB_URL+process.env.OPENSHIFT_APP_NAME ||
-				'mongodb://localhost:27017/app_v2'
+				'mongodb://localhost:27017/apps_v2'
 	},
-	version: '2',
-	itemName: 'app',
-	collectionName: 'apps'
 };
