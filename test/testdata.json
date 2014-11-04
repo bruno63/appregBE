@@ -1,5 +1,6 @@
 [
 	{ 
+<<<<<<< HEAD
 		"appid": "time",
 		"logo": "fa-clock-o",
 		"category": "Productivity", 	
@@ -13,6 +14,9 @@
 		]
 	},
 	{ 
+=======
+		"tid": "tenantA",
+>>>>>>> origin/master
 		"appid": "things",
 		"logo": "fa-pencil",
 		"category": "Productivity", 	
@@ -26,6 +30,7 @@
 		]
 	},
 	{
+		"tid": "tenantA",
 		"appid": "presents",	
 		"logo": "fa-gift", 
 		"category": "Home", 
@@ -39,6 +44,7 @@
 		]
 	},
 	{
+		"tid": "tenantA",
 	 	"appid": "menutest",
 	 	"logo": "fa-tumblr",
 		"category": "Test", 
@@ -52,6 +58,7 @@
 		]
 	},
 	{ 
+		"tid": "tenantA",
 		"appid": "apps",
 		"logo": "fa-cubes",
 		"category": "System",
@@ -65,84 +72,7 @@
 		]
 	},
 	{
-		"appid": "contracts",
-		"logo": "fa-legal",
-		"category": "Legal",
-		"name": [
-			{	"locale": "en", "text":	"Contracts"	},
-			{	"locale": "de", "text":	"Verträge" }
-		],
-		"desc": [
-			{	"locale": "en", "text": "Administer legal contracts" },
-			{	"locale": "de", "text": "Verträge verwalten" }
-		]
-	},
-	{
-		"appid": "twitter",
-		"logo": "fa-twitter",
-		"category": "Communication",
-		"name": [
-			{	"locale": "en", "text":	"Twitter"	},
-			{	"locale": "de", "text":	"Twitter" }
-		],
-		"desc": [
-			{	"locale": "en", "text": "Read and send messages via Twitter" },
-			{	"locale": "de", "text": "Meldungen mit Twitter lesen und senden" }
-		]
-	},
-	{
-		"appid": "youtube",
-		"logo": "fa-youtube",
-		"category": "Media",
-		"name": [
-			{	"locale": "en", "text":	"Youtube"	},
-			{	"locale": "de", "text":	"Youtube" }
-		],
-		"desc": [
-			{	"locale": "en", "text": "Find and watch movies on Youtube" },
-			{	"locale": "de", "text": "Filme auf Youtube finden und anschauen" }
-		]
-	},
-	{
-		"appid": "bizcard",
-		"logo": "fa-qrcode",
-		"category": "Communication",
-		"name": [
-			{	"locale": "en", "text":	"Bizcard"	},
-			{	"locale": "de", "text":	"Kontakt" }
-		],
-		"desc": [
-			{	"locale": "en", "text": "Exchange business cards via QR-Tags" },
-			{	"locale": "de", "text": "Kontaktdaten per QR-Tags austauschen" }
-		]
-	},
-	{
-		"appid": "tasks",
-		"logo": "fa-tasks",
-		"category": "Productivity",
-		"name": [
-			{	"locale": "en", "text":	"Tasks"	},
-			{	"locale": "de", "text":	"Aufgaben" }
-		],
-		"desc": [
-			{	"locale": "en", "text": "Boost your productivity by handling your tasks" },
-			{	"locale": "de", "text": "Aufgaben verwalten" }
-		]
-	},
-	{
-		"appid": "eshop",
-		"logo": "fa-shopping-cart",
-		"category": "Finance",
-		"name": [
-			{	"locale": "en", "text":	"E-Shop"	},
-			{	"locale": "de", "text":	"E-Shop" }
-		],
-		"desc": [
-			{	"locale": "en", "text": "Sell stuff online" },
-			{	"locale": "de", "text": "Dinge online verkaufen" }
-		]
-	},
-	{
+		"tid": "tenantA",
 		"appid": "puzzle",
 		"logo": "fa-puzzle-piece",
 		"category": "Games",
@@ -153,32 +83,6 @@
 		"desc": [
 			{	"locale": "en", "text": "Enjoy a simple puzzle game" },
 			{	"locale": "de", "text": "Entspannen bei einem Puzzle Spiel" }
-		]
-	},
-	{
-		"appid": "album",
-		"logo": "fa-photo",
-		"category": "Media",
-		"name": [
-			{	"locale": "en", "text":	"Album"	},
-			{	"locale": "de", "text":	"Album" }
-		],
-		"desc": [
-			{	"locale": "en", "text": "Watch a photo album" },
-			{	"locale": "de", "text": "Photos in einem Album anschauen" }
-		]
-	},
-	{
-		"appid": "pay",
-		"logo": "fa-money",
-		"category": "Finance",
-		"name": [
-			{	"locale": "en", "text":	"Pay"	},
-			{	"locale": "de", "text":	"Pay" }
-		],
-		"desc": [
-			{	"locale": "en", "text": "Pay bills online" },
-			{	"locale": "de", "text": "Rechnungen online zahlen" }
 		]
 	}
 ]

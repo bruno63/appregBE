@@ -1,5 +1,5 @@
 {
-  "name": "appreg",
+  "name": "appregSvc",
   "version": "1.0.0",
   "description": "Backend REST service storing applications",
   "homepage": "http://www.digikmu.ch",

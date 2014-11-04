@@ -1,4 +1,4 @@
-# appreg
+# appregSvc - Application Registry Service
 
 This project implements an application registration. It is built using [baucis](https://github.com/wprl/baucis) 
 and consists of 
@@ -9,20 +9,21 @@ and consists of
 
 ## Prerequisites:
 - Node.js / npm
-- MongoDB needs to run on default port 27017.
+- MongoDB needs to run on default port 27017 (in dev and test environment)
 
 ## Assumptions:
-- application will be served on port 3334
-Application and MongoDB ports can be configured in config/config.js.
+- application will be served on port 3334 (in dev and test environment)
+- Application and MongoDB ports can be configured in config/config.js.
 
 ## Installation:
-    git clone https://github.com/DigiKMU/appreg.git
-    cd appreg
+    git clone https://github.com/DigiKMU/appregSvc.git
+    cd appregSvc
     npm install
     node app
 
 ## Configuration
-- config/config.js      configuration parameters and the Mongoose schema
+- config/config.js      configuration parameters 
+- config/*SchemaDesc.js Mongoose schemas
 - test/testdata.json    test data in JSON format
 
 ## Usage:
@@ -34,7 +35,6 @@ When the server is running, the application can be called via HTTP requests, e.g
     http://localhost:[port]/api/apps?select=_id
     http://localhost:[port]/api/apps/<_id>
 
-port is configured in config/config.js (default is 3334)
 Check out POST, PUT, HEAD, and DELETE requests as well…
 
 This can be done by 
@@ -55,6 +55,6 @@ download the [swagger-ui](https://github.com/wordnik/swagger-ui) client.
 
 call the API:
 
-    http://localhost:3333/api/api-docs
-    http://localhost:3333/api/api-docs/apps
+    http://localhost:3334/api/api-docs
+    http://localhost:3334/api/api-docs/apps
 

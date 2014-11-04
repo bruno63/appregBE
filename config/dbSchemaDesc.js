@@ -4,6 +4,11 @@ var localeTextSchema = new mongoose.Schema(require('./localeTextSchemaDesc.js'))
 
 module.exports = 
 {
+	tid: {
+		type: String,
+		trim: true,
+		required: true,
+	},
 	appid: {
 		type: String,
 		trim: true,
