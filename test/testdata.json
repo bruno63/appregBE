@@ -1,5 +1,18 @@
 [
 	{ 
+		"appid": "time",
+		"logo": "fa-clock-o",
+		"category": "Productivity", 	
+		"name": [
+			{	"locale": "en", "text":	"Timesheet"	},
+			{	"locale": "de", "text":	"Leistungserfassung" }
+		],
+		"desc": [
+			{	"locale": "en", "text": "Input work time" },
+			{	"locale": "de", "text": "Erfassung von Arbeits- und Projektzeiten" }
+		]
+	},
+	{ 
 		"appid": "things",
 		"logo": "fa-pencil",
 		"category": "Productivity", 	
