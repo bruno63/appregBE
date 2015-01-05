@@ -71,6 +71,20 @@
 			{	"locale": "de", "text": "Uebersicht über alle verfügbaren Applikationen" }
 		]
 	},
+	{ 
+		"tid": "tenantA",
+		"appid": "wtt",
+		"logo": "fa-clock-o",
+		"category": "Productivity",
+		"name": [
+			{	"locale": "en", "text":	"Work Time Tracking"	},
+			{	"locale": "de", "text":	"Arbeitszeit Erfassung" }
+		],
+		"desc": [
+			{	"locale": "en", "text": "Track and Report Work- and Project-Time" },
+			{	"locale": "de", "text": "Erfasse Arbeitszeit und Projektaufwände" }
+		]
+	},
 	{
 		"tid": "tenantA",
 		"appid": "puzzle",
