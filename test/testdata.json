@@ -1,6 +1,6 @@
 [
 	{ 
-<<<<<<< HEAD
+		"tid": "tenantA",
 		"appid": "time",
 		"logo": "fa-clock-o",
 		"category": "Productivity", 	
@@ -14,9 +14,7 @@
 		]
 	},
 	{ 
-=======
 		"tid": "tenantA",
->>>>>>> origin/master
 		"appid": "things",
 		"logo": "fa-pencil",
 		"category": "Productivity", 	
